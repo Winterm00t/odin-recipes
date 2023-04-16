@@ -1,0 +1,26 @@
+﻿
+body {
+    background-color: #2e2e2e;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: whitesmoke;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: #b05279;
+}
+
+/* selected link */
+a:active {
+  color: magenta;
+}
