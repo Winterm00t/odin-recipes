@@ -6,16 +6,22 @@
   }
 
 
+.description {
+  display: block;
+  gap: 10px;
+}
 .main_flex {
   display: flex;
-  gap: 4px;
+  height: 60px;
+  gap: 10px;
 }
-
 .child_flex {
   display: flex;
   border: 2px solid #3a3a3a;
-  gap: 4px;
+  gap: 10px;
+  height: 10px;
 }
+
 /* unvisited link */
 a:link {
   color: whitesmoke;
@@ -28,7 +34,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #b05279;
+  color: magenta;
 }
 
 /* selected link */
