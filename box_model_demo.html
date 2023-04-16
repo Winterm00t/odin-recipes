@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.all_boxes{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white
+}
+
+#Parent {
+  background-color: darkslategrey;
+  width: 600px;
+  border: 10px solid black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}
+#Child {
+  background-color: black;
+  color: white;
+  width: 200px;
+  border: 5px solid blue;
+  padding: 5px;
+  margin: 5px;
+}
+#Grandchild {
+  background-color: black;
+  color: white;
+  width: 150px;
+  border: 5px solid blue;
+  padding: 5px;
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>
+  The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.
+</p>
+<div id="Parent">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <div id="Child">
+    <p>This is another box, inside the first box!!</p>
+    <div id="Grandchild">
+      <p>This is another another box, inside the 2nd box!!</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+

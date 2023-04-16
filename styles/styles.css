@@ -1,9 +1,12 @@
-﻿
+﻿/* {
+  border: 2px solid magenta
+}
+*/
 body {
     background-color: #2e2e2e;
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  }
 
 /* unvisited link */
 a:link {
