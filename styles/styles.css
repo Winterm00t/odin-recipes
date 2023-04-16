@@ -1,13 +1,21 @@
-﻿/* {
-  border: 2px solid magenta
-}
-*/
-body {
+﻿/* Applies the grey background and white Segoe to all pages. */
+* {
     background-color: #2e2e2e;
     color: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+
+.main_flex {
+  display: flex;
+  gap: 4px;
+}
+
+.child_flex {
+  display: flex;
+  border: 2px solid #3a3a3a;
+  gap: 4px;
+}
 /* unvisited link */
 a:link {
   color: whitesmoke;
