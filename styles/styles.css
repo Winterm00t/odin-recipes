@@ -9,17 +9,26 @@
 .description {
   display: block;
   gap: 10px;
+  border: 2px solid magenta;
 }
 .main_flex {
   display: flex;
+  height: 80px;
+  gap: 30px;
+  border: 2px solid magenta;
+}
+.sub_flex {
+  display: flex;
+  flex: 1 1 0
   height: 60px;
+  border: 2px solid magenta;
   gap: 10px;
 }
 .child_flex {
   display: flex;
   border: 2px solid #3a3a3a;
-  gap: 10px;
-  height: 10px;
+  gap: 60px;
+  height: 20px;
 }
 
 /* unvisited link */
